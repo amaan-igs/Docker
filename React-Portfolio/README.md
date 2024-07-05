@@ -41,7 +41,5 @@ To develop and test the application locally without Docker, use the following co
     npm run dev
     ```
 ## Project Image
-![image](https://github.com/amaan-igs/Docker/assets/172314900/f4430510-6a91-448c-b216-fcf75c8e70f7)
-
 ![image](https://github.com/amaan-igs/Docker/assets/172314900/2f9096fd-b296-4d5d-9f0c-24c65908c28e)
 
