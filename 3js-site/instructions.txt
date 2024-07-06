@@ -1,0 +1,5 @@
+Shell Commands to execute Container
+
+docker build -t react:threejs .
+
+docker run -p 5173:5173 react:threejs
