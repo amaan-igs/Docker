@@ -20,13 +20,33 @@ This project is a Dockerized React application that uses Three.js for 3D graphic
 docker build -t react:threejs .
 ```
 ### Run the Docker Container
+
 ```sh
 docker run -p 5173:5173 react:threejs
 ```
 
 ## Local Installation Without Docker
+
 ### Install Dependencies
+
 Install the project dependencies using npm:
+
 ```sh
 npm install
+```
+### Set Up Environment Variables
+
+Create a new file named .env in the root of your project and add the following content:
+
+```sh
+REACT_APP_EMAILJS_USERID=your_emailjs_user_id
+REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
+REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+```
+Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the EmailJS website.
+
+## Running the Project
+
+```sh
+npm run dev
 ```
